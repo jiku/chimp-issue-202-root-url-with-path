@@ -4,6 +4,7 @@ Feature: Audit
   I want to audit charges and payments
   So that I can resolve any discrepancies
 
+  @watch
   Scenario: View past transactions
     Given a customer made a purchase
     When I search for the transaction by their email
