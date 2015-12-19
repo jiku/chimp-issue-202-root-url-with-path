@@ -1,4 +1,4 @@
 #!/bin/bash
-ROOT_URL=http://localhost/appname meteor --port 9999 \
+ROOT_URL=http://localhost:9999/appname meteor --port 9999 \
 & cd tests/chimp/cucumber \
 && chimp --ddp=http://localhost:9999/appname --watch
